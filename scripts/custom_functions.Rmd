@@ -24,7 +24,7 @@ clean_raw_data <- function(raw_data){
 ```
 
 # Make figure 1
-This function takes whatever drake object is called `my_data`, makes the plot, saves the plot (for later upload to a journal), and also returns the plot to the drake cash for pasting into the manuscript.
+This function takes whatever drake object is called `my_data`, makes the plot, saves the plot (for later upload to a journal), and also returns the plot to the drake cache for pasting into the manuscript.
 ```{r}
 make_fig1 <- function(my_data, output_name){
   p <- ggplot(my_data, aes(Species, Sepal.Length, colour = Species)) + 
