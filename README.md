@@ -7,23 +7,22 @@ The following is an empty template for creating:
 
 It uses the `drake` package for scalable and reproducible work ([drake on Github](https://github.com/ropensci/drake)). To start using the template, clone or download this repo, change something, and then call `run.R`. For example run `source("run.R")` in R, or `Rscript run.R` in Terminal.
 
-## How to install a TeX editor
-To generate PDFs from R Markdown, you need a TeX editor installed. On Mac, I installed `MacTex` using the following 3 commands in Terminal (skip 1 and 2 if you have these programs already):
+## Installing a TeX editor
+To generate PDFs from R Markdown, you need a TeX editor installed. On Mac, I installed `MacTex` using the following 2 commands in Terminal (skip 1 if you have these programs already):
 
-1. Install homebrew
+1. Install homebrew and caskroom
 ```bash
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-
-2. Install caskroom
-```bash
 brew tap caskroom/cask
 ```
 
-3. Install MacTeX
+2. Install MacTeX
 ```bash
 brew cask install mactex
 ```
 
-You can also theoretically get MacTeX [here](https://tug.org/mactex/mactex-download.html), but the download failed for me. 
+You can also theoretically get MacTeX [here](https://tug.org/mactex/mactex-download.html), but the download did not work for me. 
+
+## Acknowledgements
+Thanks to @PhilipErm for sharing his .rmd manuscript set-up, saving me lots of hassle! My ainm with this repo is to pay it forward. I'll add new tricks to this template as I learn them. 
 

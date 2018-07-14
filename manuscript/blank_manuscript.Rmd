@@ -26,7 +26,7 @@ abstract: Pellentesque vulputate justo nisi, et varius elit malesuada quis. Maur
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-# List and load the required input files for drake
+# List and load the required input files. This tells drake the dependencies, and also loads the objects into this R session
 drake::loadd(fig1)
 ```
 
